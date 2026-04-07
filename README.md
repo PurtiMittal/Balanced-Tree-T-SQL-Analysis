@@ -6,6 +6,8 @@ Balanced Tree Clothing Company prides themselves on providing an optimised range
 
 Danny, the CEO of this trendy fashion company has asked to assist the team’s merchandising teams analyse their sales performance and generate a basic financial report to share with the wider business.
 
+This is a part of the [8 Week SQL Challenge](https://8weeksqlchallenge.com/case-study-7/) created by Danny Ma.
+
 ## Tech Stack and Skills
   1. **Database:** Microsoft SQL Server (T-SQL)
   2. **Core Logic:** Common Table Expressions (CTEs), Window Functions (DENSE_RANK, SUM() OVER(), PERCENTILE_CONT), Aggregations, Complex Joins, DECLARE
@@ -30,7 +32,7 @@ The analysis is broken into a modular structure:
   1. Execute Database_Setup/product_details.sql to build table structure and insert values into product_details table
   2. Import Database_Setup/balanced_tree_sales.csv to create balanced_tree_sales table into database.
      
-     **Crucial Configuraion:**
+     **Crucial Configuration:**
      In the modify column section, manually modify below datatypes -
      1. qty, price, discount: Change to int
      2. start_txn_time: set to datetime
@@ -39,3 +41,7 @@ The analysis is broken into a modular structure:
      ![SQL Import Wizard Mapping](Images/import_wizard_modification.png)
      
   3. Run the analysis scripts in order (00 to 04) to clean data a bit and generate individual outputs and consolidated outputs.
+
+### Connect with me
+If you have any questions about this anaysis or want to discuss query optimization, feel free to reach out!
+[Linkedin](www.linkedin.com/in/purti1003)
