@@ -36,6 +36,6 @@ The analysis is broken into a modular structure:
      start_txn_time: set to datetime
      member: Verify it is set to bit**
      
-     ![SQL Import Wizard Mapping](Images/wizard_mapping.png)
+     ![SQL Import Wizard Mapping](Images/import_wizard_modification.png)
      
   3. Run the analysis scripts in order (00 to 04) to clean data a bit and generate individual outputs and consolidated outputs.
