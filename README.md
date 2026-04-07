@@ -44,4 +44,4 @@ The analysis is broken into a modular structure:
 
 ### Connect with me
 If you have any questions about this anaysis or want to discuss query optimization, feel free to reach out!
-[Linkedin](www.linkedin.com/in/purti1003)
+[Linkedin](https://www.linkedin.com/in/purti1003/)
