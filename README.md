@@ -30,11 +30,11 @@ The analysis is broken into a modular structure:
   1. Execute Database_Setup/product_details.sql to build table structure and insert values into product_details table
   2. Import Database_Setup/balanced_tree_sales.csv to create balanced_tree_sales table into database.
      
-     **Crucial Configuraion:
+     **Crucial Configuraion:**
      In the modify column section, manually modify below datatypes -
-     qty, price, discount: Change to int
-     start_txn_time: set to datetime
-     member: Verify it is set to bit**
+     1. qty, price, discount: Change to int
+     2. start_txn_time: set to datetime
+     3. member: Verify it is set to bit
      
      ![SQL Import Wizard Mapping](Images/import_wizard_modification.png)
      
