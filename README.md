@@ -10,7 +10,7 @@ This is a part of the [8 Week SQL Challenge](https://8weeksqlchallenge.com/case-
 
 ## Tech Stack and Skills
   1. **Database:** Microsoft SQL Server (T-SQL)
-  2. **Core Logic:** Common Table Expressions (CTEs), Window Functions (DENSE_RANK, SUM() OVER(), PERCENTILE_CONT), Aggregations, Complex Joins, DECLARE
+  2. **Core Logic:** Common Table Expressions (CTEs), Window Functions (DENSE_RANK, SUM() OVER(), PERCENTILE_CONT(), Aggregations, Complex Joins, DECLARE
   3. **Financial Formatting:** Advanced FORMAT() strings for Executive-ready currency and percentages.
 
 ## Project Structure
@@ -21,6 +21,20 @@ The analysis is broken into a modular structure:
   4. 02_Transactional_Analysis.sql: Deep-dive into transactional analysis and revenue distribution.
   5. 03_Product_Analysis.sql: Category, Segment and Product level performance analysis and ranking.
   6. 04_Reporting_Challenge.sql: The "Executive Dashboard" combining all metrics into a single automated report.
+
+**High Level Sales Analysis Output**
+![High Level Sales](Output_screenshots/High_Level_Sales_Analysis.png)
+
+**Transactional Analysis**
+![Transactional Analysis](Output_screenshots/Transactional_Analysis.png)
+
+**Product Analysis**
+![Product Analysis 1](Output_screenshots/Product_Analysis_1.png)
+
+![Product Analysis 2](Output_screenshots/Product_Analysis_2.png)
+
+**Reporting Challenge (Executive Reporting Dashboard)**
+![Reporting Challenge](Output_screenshots/Reporting_Challenge.png)
 
 ## Key Insights and Highlights
   1. **Revenue Optimization:** Identified the top-performing "Category Toppers" and "Segment Toppers" driving the majority of growth.
