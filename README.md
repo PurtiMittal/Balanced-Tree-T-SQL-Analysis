@@ -23,17 +23,21 @@ The analysis is broken into a modular structure:
   6. 04_Reporting_Challenge.sql: The "Executive Dashboard" combining all metrics into a single automated report.
 
 **High Level Sales Analysis Output**
+
 ![High Level Sales](Output_screenshots/High_Level_Sales_Analysis.png)
 
 **Transactional Analysis**
+
 ![Transactional Analysis](Output_screenshots/Transactional_Analysis.png)
 
 **Product Analysis**
+
 ![Product Analysis 1](Output_screenshots/Product_Analysis_1.png)
 
 ![Product Analysis 2](Output_screenshots/Product_Analysis_2.png)
 
 **Reporting Challenge (Executive Reporting Dashboard)**
+
 ![Reporting Challenge](Output_screenshots/Reporting_Challenge.png)
 
 ## Key Insights and Highlights
