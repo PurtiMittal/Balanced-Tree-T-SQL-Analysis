@@ -1,5 +1,5 @@
 # Balanced-Tree-T-SQL-Analysis
-A **comprehensive** T-SQL analytics project that transforms raw retail data into an **automated consolidated reporting suite** for executive level decision-making. This evaluates **15000+** transactions to identify top-performing products, analyze revenue splits, revenue distributions and uncover deep customer buying patterns.
+A **comprehensive** T-SQL analytics project that transforms raw retail data into an **automated consolidated reporting suite** for executive level decision-making. This evaluates **15000+** transactional lines to identify top-performing products, analyze revenue splits, revenue distributions and uncover deep customer buying patterns.
 
 ## Introduction
 Balanced Tree Clothing Company prides themselves on providing an optimised range of clothing and lifestyle wear for the modern adventurer!
@@ -26,7 +26,8 @@ The analysis is broken into a modular structure:
   1. **Revenue Optimization:** Identified the top-performing "Category Toppers" and "Segment Toppers" driving the majority of growth.
   2. **Market Basket Analysis:** Successfully mapped "Product Triplets" to uncover hidden cross-selling opportunities within single transactions.
   3. **Member Loyalty ROI:** Quantified 20% transactions lift provided by registered members vs guests.
-  4. **Executive Formatting:** All outputs in consolidated report are formatted to financial standards (e.g., $1,234.50 and 12.75%)
+  4. **Executive Formatting:** All outputs in consolidated report are formatted to financial standards (e.g., $1,234.50 and 12.75%).
+  5. **Every product clears 49%+ transaction penetration** For a 12 product catalogue, that's unusually high. Customers aren't sticking to a few favourites, they are buying broadly across the range.
 
 ## How to Run
   1. Execute Database_Setup/product_details.sql to build table structure and insert values into product_details table
