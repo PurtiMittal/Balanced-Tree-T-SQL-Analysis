@@ -8,15 +8,15 @@ Danny, the CEO of this trendy fashion company has asked to assist the team’s m
 
 This is a part of the [8 Week SQL Challenge](https://8weeksqlchallenge.com/case-study-7/) created by Danny Ma.
 
-## Tech Stack and Skills
-  1. **Database:** Microsoft SQL Server (T-SQL)
-  2. **Core Logic:** Common Table Expressions (CTEs), Window Functions (DENSE_RANK, SUM() OVER(), PERCENTILE_CONT(), Aggregations, Complex Joins, DECLARE
-  3. **Financial Formatting:** Advanced FORMAT() strings for Executive-ready currency and percentages.
-
 ## What makes this project different?
 The entire analysis is packaged into a single executive reporting script, just change the date range to required period, run it and get a well formatted summary report for all KPIs, segment breakdowns, product rankings with badges (segment topper, Top Overall etc.) and cross-sell triplet. No manual steps!
 
 Also includes an upfront data cleaning module to fix txn_id corruption introduced during Excel import because real data is never clean!
+
+## Tech Stack and Skills
+  1. **Database:** Microsoft SQL Server (T-SQL)
+  2. **Core Logic:** Common Table Expressions (CTEs), Window Functions (DENSE_RANK, SUM() OVER(), PERCENTILE_CONT(), Aggregations, Complex Joins, DECLARE
+  3. **Financial Formatting:** Advanced FORMAT() strings for Executive-ready currency and percentages.
 
 ## Project Structure
 The analysis is broken into a modular structure:
@@ -27,19 +27,19 @@ The analysis is broken into a modular structure:
   5. 03_Product_Analysis.sql: Category, Segment and Product level performance analysis and ranking.
   6. 04_Reporting_Challenge.sql: The "Executive Dashboard" combining all metrics into a single automated report.
 
-**High Level Sales Analysis Output**
+### **High Level Sales Analysis Output**
 
 [View SQL Query](01_High_Level_Sales_Analysis.sql)
 
 ![High Level Sales](Output_screenshots/High_Level_Sales_Analysis.png)
 
-**Transactional Analysis**
+### **Transactional Analysis**
 
 [View SQL Query](02_Transactional_Analysis.sql)
 
 ![Transactional Analysis](Output_screenshots/Transactional_Analysis.png)
 
-**Product Analysis**
+### **Product Analysis**
 
 [View SQL Query](03_Product_Analysis.sql)
 
@@ -47,7 +47,7 @@ The analysis is broken into a modular structure:
 
 ![Product Analysis 2](Output_screenshots/Product_Analysis_2.png)
 
-**Reporting Challenge (Executive Reporting Dashboard)**
+### **Reporting Challenge (Executive Reporting Dashboard)**
 
 [View SQL Query](04_Reporting_Challenge.sql)
 
