@@ -20,8 +20,8 @@ Also includes an upfront data cleaning module to fix txn_id corruption introduce
 
 ## Project Structure
 The analysis is broken into a modular structure:
-  1. Database_Setup/: Contains the product_details schema and the sales transaction dataset (.csv)
-  2. 00_Data_Cleaning.sql: Initial audit and formatting of raw data to ensure financial accuracy.
+  1. Database_Setup/: Contains the product_details schema and the sales transaction dataset (.csv) [View Database Folder](https://github.com/PurtiMittal/Balanced-Tree-T-SQL-Analysis/tree/main/Database_Setup)
+  2. 00_Data_Cleaning.sql: Initial audit and formatting of raw data to ensure financial accuracy. [View SQL Query](00_Data_Cleaning.sql)
   3. 01_High_Level_Sales.sql: Key Performance Indicators like Total Quantities sold, Revenue and Total Discount
   4. 02_Transactional_Analysis.sql: Deep-dive into transactional analysis and revenue distribution.
   5. 03_Product_Analysis.sql: Category, Segment and Product level performance analysis and ranking.
@@ -29,19 +29,27 @@ The analysis is broken into a modular structure:
 
 **High Level Sales Analysis Output**
 
+[View SQL Query](01_High_Level_Sales_Analysis.sql)
+
 ![High Level Sales](Output_screenshots/High_Level_Sales_Analysis.png)
 
 **Transactional Analysis**
 
+[View SQL Query](02_Transactional_Analysis.sql)
+
 ![Transactional Analysis](Output_screenshots/Transactional_Analysis.png)
 
 **Product Analysis**
+
+[View SQL Query](03_Product_Analysis.sql)
 
 ![Product Analysis 1](Output_screenshots/Product_Analysis_1.png)
 
 ![Product Analysis 2](Output_screenshots/Product_Analysis_2.png)
 
 **Reporting Challenge (Executive Reporting Dashboard)**
+
+[View SQL Query](04_Reporting_Challenge.sql)
 
 ![Reporting Challenge](Output_screenshots/Reporting_Challenge.png)
 
