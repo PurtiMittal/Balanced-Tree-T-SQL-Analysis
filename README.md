@@ -13,6 +13,11 @@ This is a part of the [8 Week SQL Challenge](https://8weeksqlchallenge.com/case-
   2. **Core Logic:** Common Table Expressions (CTEs), Window Functions (DENSE_RANK, SUM() OVER(), PERCENTILE_CONT(), Aggregations, Complex Joins, DECLARE
   3. **Financial Formatting:** Advanced FORMAT() strings for Executive-ready currency and percentages.
 
+## What makes this project different?
+The entire analysis is packaged into a single executive reporting script, just change the date range to required period, run it and get a well formatted summary report for all KPIs, segment breakdowns, product rankings with badges (segment topper, Top Overall etc.) and cross-sell triplet. No manual steps!
+
+Also includes an upfront data cleaning module to fix txn_id corruption introduced during Excel import because real data is never clean!
+
 ## Project Structure
 The analysis is broken into a modular structure:
   1. Database_Setup/: Contains the product_details schema and the sales transaction dataset (.csv)
